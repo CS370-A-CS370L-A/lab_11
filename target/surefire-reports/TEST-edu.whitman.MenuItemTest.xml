@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.whitman.MenuItemTest" time="0.071" tests="10" errors="0" skipped="0" failures="10">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/richard/Documents/CS370/Week 12/Week 12_4/stud_version/target/test-classes:/home/richard/Documents/CS370/Week 12/Week 12_4/stud_version/target/classes:/home/richard/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/richard/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/richard/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/richard/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/richard/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/richard/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/home/richard/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-arm64/lib"/>
+    <property name="sun.java.command" value="/home/richard/Documents/CS370/Week 12/Week 12_4/stud_version/target/surefire/surefirebooter10791725695616287246.jar /home/richard/Documents/CS370/Week 12/Week 12_4/stud_version/target/surefire 2025-04-23T16-36-10_359-jvmRun1 surefire6518599691206831340tmp surefire_016752079092957367257tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/richard/Documents/CS370/Week 12/Week 12_4/stud_version/target/test-classes:/home/richard/Documents/CS370/Week 12/Week 12_4/stud_version/target/classes:/home/richard/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/richard/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/richard/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/richard/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/richard/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/richard/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/home/richard/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/richard"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-arm64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/richard/Documents/CS370/Week 12/Week 12_4/stud_version"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/richard/Documents/CS370/Week 12/Week 12_4/stud_version/target/surefire/surefirebooter10791725695616287246.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.26+4-post-Ubuntu-1ubuntu122.04"/>
+    <property name="user.name" value="richard"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.8.0-58-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/richard/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.26"/>
+    <property name="user.dir" value="/home/richard/Documents/CS370/Week 12/Week 12_4/stud_version"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/aarch64-linux-gnu/jni:/lib/aarch64-linux-gnu:/usr/lib/aarch64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.26+4-post-Ubuntu-1ubuntu122.04"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="test_getCategory" classname="edu.whitman.MenuItemTest" time="0.036">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Poke Bowls> but was: <>
+	at edu.whitman.MenuItemTest.test_getCategory(MenuItemTest.java:61)
+]]></failure>
+  </testcase>
+  <testcase name="test_getName" classname="edu.whitman.MenuItemTest" time="0">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Small Poke Bowl> but was: <>
+	at edu.whitman.MenuItemTest.test_getName(MenuItemTest.java:66)
+]]></failure>
+  </testcase>
+  <testcase name="test_getPrice_0" classname="edu.whitman.MenuItemTest" time="0.001">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Expected java.lang.IllegalStateException to be thrown, but nothing was thrown.
+	at edu.whitman.MenuItemTest.test_getPrice_0(MenuItemTest.java:49)
+]]></failure>
+  </testcase>
+  <testcase name="test_getPrice_5" classname="edu.whitman.MenuItemTest" time="0.004">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: Expected java.lang.IllegalStateException to be thrown, but nothing was thrown.
+	at edu.whitman.MenuItemTest.test_getPrice_5(MenuItemTest.java:42)
+]]></failure>
+  </testcase>
+  <testcase name="test_getPrice_6" classname="edu.whitman.MenuItemTest" time="0.004">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <$10.49> but was: <>
+	at edu.whitman.MenuItemTest.test_getPrice_6(MenuItemTest.java:37)
+]]></failure>
+  </testcase>
+  <testcase name="test_getPrice_7" classname="edu.whitman.MenuItemTest" time="0.002">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: < $10.49> but was: <>
+	at edu.whitman.MenuItemTest.test_getPrice_7(MenuItemTest.java:32)
+]]></failure>
+  </testcase>
+  <testcase name="test_getPriceInCents" classname="edu.whitman.MenuItemTest" time="0.001">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <1049> but was: <0>
+	at edu.whitman.MenuItemTest.test_getPriceInCents(MenuItemTest.java:72)
+]]></failure>
+  </testcase>
+  <testcase name="test_getPrice" classname="edu.whitman.MenuItemTest" time="0.001">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <$10.49> but was: <>
+	at edu.whitman.MenuItemTest.test_getPrice(MenuItemTest.java:20)
+]]></failure>
+  </testcase>
+  <testcase name="test_getPrice_10" classname="edu.whitman.MenuItemTest" time="0.001">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <    $10.49> but was: <>
+	at edu.whitman.MenuItemTest.test_getPrice_10(MenuItemTest.java:26)
+]]></failure>
+  </testcase>
+  <testcase name="test_toString" classname="edu.whitman.MenuItemTest" time="0">
+    <failure type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Small Poke Bowl,1049,Poke Bowls> but was: <>
+	at edu.whitman.MenuItemTest.test_toString(MenuItemTest.java:56)
+]]></failure>
+  </testcase>
+</testsuite>
